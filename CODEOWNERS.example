@@ -1,0 +1,4 @@
+# 예시 — 각 현행 repo에 복사해서 실명/GH ID로 교체
+# * @autohitech/scada-active
+# /SCB-* @autohitech/hw-board
+# /SCM-* @autohitech/hw-board

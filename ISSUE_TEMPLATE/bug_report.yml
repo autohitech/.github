@@ -1,0 +1,24 @@
+name: Bug report
+description: 현행 제품 버그 보고 (아카이브 repo 제외)
+labels: [bug]
+body:
+  - type: input
+    id: repo-env
+    attributes:
+      label: 발생 repo / 환경
+      placeholder: 예) autohitech-web / 현장 A호기
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 증상
+      placeholder: 기대 동작 vs 실제 동작
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 재현 절차
+    validations:
+      required: false

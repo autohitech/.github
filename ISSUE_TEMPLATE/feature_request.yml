@@ -1,0 +1,23 @@
+name: Feature request
+description: 현행 제품 기능 요청
+labels: [enhancement]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: 대상 repo
+      placeholder: 예) SCM-AI
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 배경 / 필요성
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 제안 내용
+    validations:
+      required: false
