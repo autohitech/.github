@@ -55,7 +55,7 @@
 | 현행 제품 | `autobase-rea`, `AHT-SCADA-X`, `autohitech-web`, `autohitech-legacy`, `autohitech-drive`, `atech.biz`, `atech-drive` | 웹·드라이브·현행 SCADA |
 | 하드웨어 | `SCB-*` 7종, `SCM-*` 6종 | 위 제품 라인 참조 (전부 README+ERC/DRC+3D 보유) |
 | 공통 | `modbus-source-code`, `modbus-debug-tool`, `docker-hsqldb`, `legacy`, `business-card`, `certifications` | 프로토콜·인프라·문서 |
-| 아카이브 | `SCM-AI/AO/DO`, `AHT-SCADA-*` 385개 + 원형 3개 | 현장 프로젝트 보존 (읽기 전용) |
+| 아카이브 | `SCM-AI/AO/DO`, `AHT-SCADA-*` 388개 | 현장 프로젝트 보존 (읽기 전용, `AHT-SCADA-X`만 현행) |
 
 ## 품질 기준 (하드웨어)
 
