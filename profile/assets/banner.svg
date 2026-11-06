@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1526"/>
+      <stop offset="0.55" stop-color="#0e1d33"/>
+      <stop offset="1" stop-color="#13263f"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <g stroke="url(#trace)" stroke-width="2" fill="none" opacity="0.85">
+    <path d="M 880 90 H 1000 V 150 H 1120"/>
+    <path d="M 880 180 H 980 V 230 H 1120"/>
+    <path d="M 880 270 H 1020 V 250 H 1120"/>
+    <circle cx="880" cy="90" r="4" fill="#22d3ee" stroke="none"/>
+    <circle cx="880" cy="180" r="4" fill="#f5a623" stroke="none"/>
+    <circle cx="880" cy="270" r="4" fill="#34d399" stroke="none"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#7d8aa0">
+    <text x="880" y="70">DI-4CH</text>
+    <text x="880" y="205">DO-2CH</text>
+    <text x="880" y="295">AI · RTD</text>
+  </g>
+  <g>
+    <rect x="1050" y="110" width="150" height="150" rx="14" fill="#16294a" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="1125" cy="175" r="30" fill="none" stroke="#34d399" stroke-width="2.5"/>
+    <circle cx="1125" cy="175" r="10" fill="#34d399"/>
+    <path d="M 1125 145 V 130 M 1125 205 V 220 M 1095 175 H 1080 M 1155 175 H 1170" stroke="#34d399" stroke-width="2.5"/>
+    <text x="1125" y="248" text-anchor="middle" font-size="19" fill="#c7d2e4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">SCADA</text>
+  </g>
+  <g>
+    <text x="80" y="160" font-size="84" font-weight="800" fill="#f2f6fc" letter-spacing="6">AUTOHITECH</text>
+    <text x="84" y="215" font-size="30" fill="#9fb2cc">Industrial Automation · SCADA &amp; Control Hardware</text>
+    <g font-size="22" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+      <rect x="84" y="248" width="150" height="40" rx="20" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+      <text x="159" y="275" text-anchor="middle" fill="#22d3ee">NuriSCada</text>
+      <rect x="248" y="248" width="170" height="40" rx="20" fill="none" stroke="#f5a623" stroke-width="1.5"/>
+      <text x="333" y="275" text-anchor="middle" fill="#f5a623">SCM Modules</text>
+      <rect x="432" y="248" width="170" height="40" rx="20" fill="none" stroke="#34d399" stroke-width="1.5"/>
+      <text x="517" y="275" text-anchor="middle" fill="#34d399">SCB Carriers</text>
+    </g>
+  </g>
+</svg>
